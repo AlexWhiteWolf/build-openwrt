@@ -5,9 +5,9 @@ on:
   workflow_dispatch:
     inputs:
       device:
-        description: 'jdc_ax1800-pro'
+        description: 'jdcloud_re-ss-01'
         required: true
-        default: 'jdc_ax1800-pro'
+        default: 'jdcloud_re-ss-01'
 
 jobs:
   build:
