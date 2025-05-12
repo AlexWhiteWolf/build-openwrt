@@ -8,6 +8,11 @@ on:
         description: 'jdcloud_re-ss-01'
         required: true
         default: 'jdcloud_re-ss-01'
+      release:
+        description: '上传到release'
+        required: false
+        default: true
+        type: boolean
 
 jobs:
   build:
